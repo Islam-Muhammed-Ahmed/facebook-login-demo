@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* text-decoration: none; */
+    outline: none;
+}
+
+body {
+    width: 100%;
+    background-color: #f0f2f5;
+    overflow: hidden;
+}
+
+form {
+    background-color: #fff;
+    position: absolute;
+    width: 380px;
+    height: 290px;
+    padding: 20px 10px 20px 10px;
+    margin: -70px 850px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px -6px;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 8px;
+    width: 210px;
+    padding: 10px 40px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    background-color: #1077f2;
+    color: white;
+    margin: auto;
+    width: 290px;
+    display: block;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+button[type="submit"]:hover {
+    background-color: blue;
+}
+
+form a {
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1077f2;
+    padding-left: 88px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3 ease;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-top: 1px solid #222;
+    opacity: 0.2;
+    margin-top: 15px;
+}
+
+form button[type="button"] {
+    margin-top: 20px;
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+form button[type="button"]:hover {
+    background-color: darkgreen;
+}
+
+.sub-link h3 {
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Arial;
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+    /* margin: 0px 0px; */
+}
+
+.sub-link h3 a {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.sub-link h3 a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    width: 450px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    font-family: 'Segoe UI', Roboto, "San Francisco";
+}
+
+figure img {
+    width: 300px;
+    margin-left: -120px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 400;
+    word-spacing: 3px;
+    margin-left: -85px;
+}
+
+p span {
+    font-size: 32px;
+    font-weight: 400;
+}
